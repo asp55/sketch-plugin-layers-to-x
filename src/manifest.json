@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Layers to Artboards",
+      "identifier": "layers-to.artboards",
+      "script": "./layers-to-artboards.js"
+    }, 
+    {
+      "name": "Layers to Groups",
+      "identifier": "layers-to.groups",
+      "script": "./layers-to-groups.js"
+    }, 
+    {
+      "name": "Layers to Symbols",
+      "identifier": "layers-to.symbols",
+      "script": "./layers-to-symbols.js"
+    }
+  ],
+  "menu": {
+    "title": "Layers to...",
+    "items": ["layers-to.artboards","layers-to.groups","layers-to.symbols"]
+  }
+}
